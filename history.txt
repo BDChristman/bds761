@@ -1,0 +1,37 @@
+    1  suo apt-get install python3-pip -y
+    2  sudo apt-get install python3-pip -y
+    3  exit
+    4  ls
+    5  ls -a
+    6  rm -rf ./git
+    7  rm -rf ./.git
+    8  ls -a
+    9  ls
+   10  mkdir gitTest
+   11  cd gitTest/
+   12  ls
+   13  git init
+   14  git remote add origin https://github.com/BDChristman/bds761/
+   15  git pull origin main
+   16  ls
+   17  git config --global user.name 'BDChristman'
+   18  git config --global user.email 'bchristman@umc.edu'
+   19  git add .
+   20  git add *.py
+   21  git status
+   22  git branch
+   23  git branch --list
+   24  git checkout main
+   25  ls
+   26  git status
+   27  git branch --list
+   28  git branch --delete master
+   29  git status
+   30  git branch --list
+   31  git commit -m "update"
+   32  git push origin main
+   33  ls
+   34  git branch --list
+   35  ls
+   36  history
+   37  history > history.txt
